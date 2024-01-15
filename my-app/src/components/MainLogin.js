@@ -10,9 +10,11 @@ const MainLogin = ({onLogin}) => {
     const [password,setPassword]=useState();
     const [errorMessage, setErrorMessage] = useState('');
     const navigate=useNavigate();
+    axios.defaults.withCredentials=true;
     const handleSubmit = (e) => {
         e.preventDefault()
-        axios.post('http://localhost:3001/login', {email, password})
+        // axios.post('http://localhost:3001/login', {email, password})
+        axios.post('https://trainers-management-system.vercel.app/login', {email, password})
         .then(result => {console.log(result)
             if(result.data ==="Success"){
                 navigate('/dashboard')

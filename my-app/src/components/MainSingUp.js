@@ -34,6 +34,7 @@ const MainSignUp = () => {
     const usernameRegex = /^(\S+\s*){3,}$/;
     return usernameRegex.test(username);
   };
+  axios.defaults.withCredentials=true;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -54,7 +55,8 @@ const MainSignUp = () => {
         return;
       }
 
-      const result = await axios.post('http://localhost:3001/register', { name, email, password });
+      // const result = await axios.post('http://localhost:3001/register', { name, email, password });
+      const result = await axios.post('https://trainers-management-system.vercel.app/register', { name, email, password });
       console.log(result);
 
       if (result.status === 200) {

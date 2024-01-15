@@ -1,0 +1,80 @@
+.contact{
+    background-image: url('https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg');
+    margin-top: -2rem;
+    background-size: cover;
+}
+.contact h2{
+    font-size: 2.6rem;
+    color:#676060;
+    font-weight: bold;
+    text-align: center;
+}
+.contact h2 span{
+    color:#03b1e1;
+}
+.contact form{
+    max-width:55rem;
+    margin:0rem auto;
+    text-align: center;
+    /* margin-bottom: 3rem; */
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form textarea::placeholder,input::placeholder{
+    color: white;
+}
+
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding:0.8rem;
+    font-size: 1rem;
+    color:white;
+    background: rgba(0, 0, 0, 0.45);
+    /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+    backdrop-filter: blur(6px);
+    border-radius: .8rem;
+    margin:.4rem 0;
+    border: transparent;
+}
+.contact form .input-box input{
+    width:49%;
+}
+.contact form textarea{
+    resize:none;
+}
+.contact form .btn{
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.error{
+    color:red;
+    position: absolute;
+    margin-top:2rem;
+    margin-left:0.8rem;
+}
+
+.heading{
+    padding-top: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn1{
+    border: 0;
+    border-radius: 6px;
+    color: white;
+    margin-top:2vh;
+    margin-bottom: 5vh;
+    padding: 2px 8px 2px 8px;
+    background-color: #4db4d7;
+}
+
+.btn1:hover{
+    background-color: #03b1e1;
+    color: white;
+}

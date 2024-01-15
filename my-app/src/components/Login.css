@@ -1,0 +1,80 @@
+.logindiv{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 80vh;
+    width: 32vw;
+    background: rgba(0, 0, 0, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    border-radius: 15px;
+    letter-spacing: 0.2rem;
+    /* display: none; */
+    margin-top: 5vh;
+}
+
+.outerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 30px; */
+    background-image: url('https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.label{
+    color: white;
+    letter-spacing: 0.1;
+}
+
+.head{
+    color: white;
+    flex-direction: column;
+    margin-bottom: 12vh;
+    margin-top: 10vh;
+    text-decoration: underline;
+}
+
+
+
+.form-text{
+    letter-spacing: 0.15rem;
+    text-align: center;
+    margin-bottom: 1.5vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    border-radius: 8px;
+    border: 0;
+    flex-direction: column;
+    display: flex;
+}
+
+.form-text:hover{
+    border: 2px solid black;
+}
+
+.loginbutton{
+    border: 0;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.55);
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding: 2px 8px 2px 8px;
+}
+
+.loginbutton:hover{
+    background-color: #4db4d7;
+    color: white;
+}
+
+.error-message
+{
+    color: white;
+}
+
+.form-text::placeholder{
+    color: grey;
+}

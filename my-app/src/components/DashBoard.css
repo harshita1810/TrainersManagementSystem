@@ -1,0 +1,59 @@
+.bar{
+    border: none;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 4vh;
+    display: flex;
+    background-image: url('https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg');
+    background-size: cover;
+    height: 11rem;
+  }
+  
+  .cards .field{
+    margin-top: 3.25rem;
+    border-radius: 3rem;
+    margin-right: 2rem;
+  }
+  
+  .fiel{
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .fiel::-webkit-scrollbar{
+    width: 0;
+  }
+
+  
+.field:hover{
+    background-color: #427D9D;
+    color: white;
+    transform: scale(1.06); 
+}
+
+
+
+.field{
+  width: 15rem;
+  height: 5rem;
+  transition: transform 0.3s ease; 
+  cursor: pointer;
+}
+
+.barchart{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+

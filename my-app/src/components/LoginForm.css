@@ -1,0 +1,69 @@
+.teacher{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 80vh;
+    width: 45vw;
+    background: rgba(0, 0, 0, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1.5px);
+    border-radius: 15px;
+    letter-spacing: 0.2rem;
+    /* display: none; */
+    margin-top: 5vh;
+}
+
+.outerdivisionn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 30px; */
+    background-image: url('https://cdn.dribbble.com/users/6992555/screenshots/15878242/media/d433dbd8312b582f1f1957fb3c37d15c.jpg?resize=400x300&vertical=center');
+    background-size: cover;
+    height: 100vh;
+}
+
+.addbutton{
+    padding: 6px 16px 6px 16px;
+    border: none;
+    background-color: #04b2f1;
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+.addbutton:hover{
+    background-color: #077da8;
+}
+
+.teacher form input::placeholder{
+    color: grey;
+    text-align: center;
+}
+
+
+.boxarea{
+    width: 30vh;
+    height: 5vh;
+    text-align: center;
+    overflow-y: auto;
+    /* display: block; */
+}
+
+.headingteacher{
+    color: rgb(255, 255, 255);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.teacher h2 span{
+    color: #47cafa;
+}
+
+
+
+.trainerimage{
+    color: white;
+    justify-content: center;
+    margin-left: 6rem;
+}

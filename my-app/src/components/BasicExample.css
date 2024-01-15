@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Salsa&display=swap');
+
+.bar{
+    border: none;
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+.icon svg {
+    display: block; 
+}
+.icon-container.hovered > .slide {
+    display: block; 
+    margin: 0;
+    padding: 0 10px;
+}
+.icon-container > .slide {
+    display: none; 
+}
+.icon-container {
+    color: #427D9D;
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .changeColor:hover {
+    color: #427D9D;
+  }
+  
+
+  .icon-container:hover {
+    color: white;
+    background-color: #427D9D;
+    transition: 0.4s;
+  }
+  /* .slide{
+    border: 8px solid #427D9D;
+    border-radius: 100px;
+    background-color: #427D9D;
+    color: white;
+    visibility: hidden;
+  } */
+  
+  .icon:hover{
+    overflow: visible;
+    display: flex;
+  }
+
+  .navbar-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  /* .slide {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  } */
+  
+  .visible {
+    opacity: 1;
+  }
+    
+
+  .mainna{
+    position: sticky;
+
+  }
+
+
+  #mainnav{
+    position: fixed;
+    width: 100vw;
+    margin: auto;
+    margin-left: 1px;
+    border: 0px;
+  }
+
+
+    
+.mainna::-webkit-scrollbar{
+  width: 0;
+}
+
+.prim:hover{
+  background-color: #427D9D;
+  color: white;
+}
+
+.prim{
+  color: #427D9D;
+  background-color: rgb(252, 249, 249);
+}
+
+/* .prim:active{
+  background-color: #427D9D;
+} */
+
+
+.Wel{
+  font-weight: bold;
+  font-family: "Salsa", cursive;
+}

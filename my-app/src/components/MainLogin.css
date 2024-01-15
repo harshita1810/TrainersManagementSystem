@@ -1,0 +1,69 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Freckle+Face&family=Monoton&display=swap');
+.heads{
+  font-family: 'Monoton' !important;
+}
+.reg{
+  background: radial-gradient(circle at 10% 20%, rgb(123, 213, 238) 0%, rgb(25, 120, 151) 100.2%) !important;
+  font-family: 'Comfortaa';
+}
+.regi{
+  background: radial-gradient(circle at 10% 20%, rgb(123, 213, 238) 0%, rgb(25, 120, 151) 100.2%);
+}
+.regis{
+  background: #427d9d;
+  color: #fff;
+}
+.regis:hover{
+  background: #437693;
+  color: #fff;
+}
+.regist{
+  background: #8896e3;
+  color: #fff;
+}
+.regist:hover{
+  background: #939be2;
+  color: #fff;
+} */
+
+
+
+
+
+
+
+.regi{
+    justify-content: left;
+    text-align: left;
+
+}
+
+.roob{
+     margin-left: 2rem;
+}
+
+.common{
+    margin-left: 2.5rem;
+
+}
+
+.common1{
+  border-top-left-radius: 35% ;
+  border-bottom-left-radius: 35% ;
+}
+
+.regis{
+    background-color: #4db4d7;
+    border: none;
+    color: white;
+}
+
+.regis:hover{
+    background-color: #427d9d;
+    color: white;
+}
+
+.regist:hover{
+    background-color: #427d9d !important;
+    color: white;
+}

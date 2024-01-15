@@ -1,0 +1,22 @@
+.otpdiv{
+    margin-top: 13rem;
+    border: 2px solid;
+    border-radius: 1.5rem;
+    padding-top: 0.5rem;
+    max-width: 400px;
+    margin-left: 33vw;
+}
+
+.firsthead{
+    color: black;
+}
+
+.verifybtn{
+    border-radius: 0.4rem;
+}
+
+.verifybtn:hover{
+    background-color: #4db4d7;
+    color: white;
+    border: 2px #4db4d7;
+}

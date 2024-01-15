@@ -1,0 +1,71 @@
+
+.wrapper{
+    max-height: 45vh;
+    overflow-x: auto;
+    height: 90vh;
+    background-image: url('https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg');
+    background-size: cover;
+    border-radius: 80px;
+    max-width: 80vw;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: -80px 10px 10px 115px;
+    padding: 15px;
+    border: 4px solid #427D9D;
+  }
+  
+.wrapper::-webkit-scrollbar{
+    width: 0;
+  }
+  
+.wrapper .item{
+    min-width: 210px;
+    margin-right: 1vw;
+    /* margin-left: 2vw; */
+    border-radius: 50px;
+    color: #fff;
+    background-color: rgba(0, 0 ,0, 0.5);
+    max-width: 100vw;
+    /* backdrop-filter: blur(8.5px); */
+  }
+
+  
+.image1{
+    border-radius: 100px;
+  }
+
+.item:hover{
+    transition: 0.4s;
+    transform: scale(1.07);
+    background-color: rgba(0, 0 ,0, 0.65);
+  }
+
+.outer{
+    justify-content: center;
+    /* align-items: center; */
+    /* display: flex; */
+    padding-top: 25vh;
+    background-image: url('https://t3.ftcdn.net/jpg/05/18/53/74/360_F_518537484_wddS5sP48xCiaYOvIAKrvd1ETe0vlgwl.jpg');
+    background-size: cover;
+    height: 100%;
+  }
+
+
+  /* .boxx{
+    max-height: 100vh;
+    overflow-x: auto;
+    height: 90vh;
+    background-image: url('https://i.pinimg.com/1200x/f4/b9/fe/f4b9fe4e03a2ef397e496ab1cde8bb26.jpg');
+    background-size: cover;
+    border-radius: 100px;
+    max-width: 80vw;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    padding: 15px;
+    border: 4px solid #427D9D;
+  } */

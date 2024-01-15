@@ -10,7 +10,7 @@ app.use(express.json())
 // app.use(cors())
 app.use(cors(
     {
-        origin:["https://trainers-management-system-qdsr.vercel.app"],
+        origin:["https://trainers-management-system-xekj.vercel.app"],
         methods:["POST","GET"],
         credentials:true
     }

@@ -7,14 +7,14 @@ const ContactModel = require('./models/Contact')
 
 const app = express()
 app.use(express.json())
-// app.use(cors())
-app.use(cors(
-    {
-        origin:["https://trainers-management-system-xekj.vercel.app/"],
-        methods:["POST","GET"],
-        credentials:true
-    }
-))
+app.use(cors())
+// app.use(cors(
+//     {
+//         origin:["https://trainers-management-system-xekj.vercel.app/"],
+//         methods:["POST","GET"],
+//         credentials:true
+//     }
+// ))
 
 mongoose.connect("mongodb+srv://admin:admin1234@cluster0.bny17md.mongodb.net/tms?retryWrites=true&w=majority");
 let temporaryUserData = {};
@@ -92,7 +92,7 @@ function sendOTPToEmail(email, otp) {
         service: 'gmail',
         auth: {
             user: 'harshita0583.be21@chitkara.edu.in',
-            pass: 'Harshita2003',
+            pass: 'Vipul@2003harshu',
         },
     });
 
@@ -131,7 +131,7 @@ function sendOTPToEmailContact(email, otp) {
         service: 'gmail',
         auth: {
             user: 'harshita0583.be21@chitkara.edu.in',
-            pass: 'Harshita2003',
+            pass: 'Vipul@2003harshu',
         },
     });
 
@@ -156,7 +156,7 @@ function sendContactEmailToYourself(userEmail, message) {
         service: 'gmail',
         auth: {
             user: 'harshita0583.be21@chitkara.edu.in',
-            pass: 'Harshita2003',
+            pass: 'Vipul@2003harshu',
         },
     });
 
@@ -184,7 +184,7 @@ function sendAcknowledgmentEmail(userEmail) {
         service: 'gmail',
         auth: {
             user: 'harshita0583.be21@chitkara.edu.in',
-            pass: 'Harshita2003',
+            pass: 'Vipul@2003harshu',
         },
     });
 

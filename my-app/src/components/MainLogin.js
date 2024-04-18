@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Navigate } from 'react-router-dom'
 import './MainLogin.css';
 import back from '../assets/back.png';
 
@@ -10,13 +10,16 @@ const MainLogin = ({onLogin}) => {
     const [password,setPassword]=useState();
     const [errorMessage, setErrorMessage] = useState('');
     const navigate=useNavigate();
-    axios.defaults.withCredentials=true;
+    // axios.defaults.withCredentials=true;
     const handleSubmit = (e) => {
         e.preventDefault()
-        // axios.post('http://localhost:3001/login', {email, password})
-        axios.post('https://trainers-management-system.vercel.app/login', {email, password})
+        axios.post('http://localhost:3001/login', {email, password})
+        // axios.post('https://trainers-management-system.vercel.app/login', {email, password})
         .then(result => {console.log(result)
             if(result.data ==="Success"){
+                let isLoggedIn = false;
+                localStorage.setItem('user', JSON.stringify({ email, isLoggedIn: true }));
+                // isLoggedIn.token ? <Navigate to ="/dashboard"/> : <Navigate to ="/mainlogin" />
                 navigate('/dashboard')
             }
             else{

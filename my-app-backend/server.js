@@ -7,14 +7,14 @@ const ContactModel = require('./models/Contact')
 
 const app = express()
 app.use(express.json())
-app.use(cors())
-// app.use(cors(
-//     {
-//         origin:["https://trainers-management-system-xekj.vercel.app/"],
-//         methods:["POST","GET"],
-//         credentials:true
-//     }
-// ))
+// app.use(cors())
+app.use(cors(
+    {
+        origin:["https://trainers-management-system-gses.vercel.app/"],
+        methods:["POST","GET"],
+        credentials:true
+    }
+))
 
 mongoose.connect("mongodb+srv://admin:admin1234@cluster0.bny17md.mongodb.net/tms?retryWrites=true&w=majority");
 let temporaryUserData = {};

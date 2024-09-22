@@ -31,7 +31,7 @@ import MainLogin from './components/MainLogin';
 import OTPVerification from './components/OTPVerification';
 import OTPVerificationContact from './components/OTPVerificationContact';
 import Companies from './components/Companies';
-import Privateroute from './components/Privateroute';
+// import Privateroute from './components/Privateroute';
 
 function App() {
 
@@ -45,23 +45,23 @@ function App() {
           <Route path='/mainlogin' element={<MainLogin />}></Route>
           <Route path='/mainsignup' element={<MainSignUp />}></Route>
           <Route path="/register" component={MainSignUp} />
-          <Route element={<Privateroute />}>
-            <Route path='cards' element={<Cards />} />
-            <Route path='dashBoard' element={<DashBoard />} exact/>
-            <Route path='login' element={<Login />} />
-            <Route path='loginform' element={<LoginForm />} />
-            <Route path='trainerlist' element={<TrainerList />} />
-            <Route path='trainerlist1' element={<TrainerList1 />} />
-            <Route path='trainerlist2' element={<TrainerList2 />} />
-            <Route path='trainerlist3' element={<TrainerList3 />} />
-            <Route path='trainerlist4' element={<TrainerList4 />} />
-            <Route path='trainerlist5' element={<TrainerList5 />} />
-            <Route path='trainerlist6' element={<TrainerList6 />} />
-            <Route path='counter' element={<Counter />} />
-            <Route path="verify-otp/:email" element={<OTPVerification />} />
-            <Route path="verify-otp-contact/:email" element={<OTPVerificationContact />} />
-            <Route path='companies' element={<Companies />} />
-          </Route>
+          {/* <Route element={<Privateroute />}> */}
+            <Route path='/cards' element={<Cards />} />
+            <Route path='/dashBoard' element={<DashBoard />} exact/>
+            <Route path='/login' element={<Login />} />
+            <Route path='/loginform' element={<LoginForm />} />
+            <Route path='/trainerlist' element={<TrainerList />} />
+            <Route path='/trainerlist1' element={<TrainerList1 />} />
+            <Route path='/trainerlist2' element={<TrainerList2 />} />
+            <Route path='/trainerlist3' element={<TrainerList3 />} />
+            <Route path='/trainerlist4' element={<TrainerList4 />} />
+            <Route path='/trainerlist5' element={<TrainerList5 />} />
+            <Route path='/trainerlist6' element={<TrainerList6 />} />
+            <Route path='/counter' element={<Counter />} />
+            <Route path="/verify-otp/:email" element={<OTPVerification />} />
+            <Route path="/verify-otp-contact/:email" element={<OTPVerificationContact />} />
+            <Route path='/companies' element={<Companies />} />
+          {/* </Route> */}
           {/* <Route path='/companies' element={<Companies />} /> */}
         </Routes>
       </Router>

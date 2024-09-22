@@ -92,7 +92,7 @@ function sendOTPToEmail(email, otp) {
         service: 'gmail',
         auth: {
             user: 'harshita0583.be21@chitkara.edu.in',
-            pass: 'Vipul@2003harshu',
+            pass: 'Harshita1810',
         },
     });
 
@@ -131,7 +131,7 @@ function sendOTPToEmailContact(email, otp) {
         service: 'gmail',
         auth: {
             user: 'harshita0583.be21@chitkara.edu.in',
-            pass: 'Vipul@2003harshu',
+            pass: 'Harshita1810',
         },
     });
 
@@ -156,7 +156,7 @@ function sendContactEmailToYourself(userEmail, message) {
         service: 'gmail',
         auth: {
             user: 'harshita0583.be21@chitkara.edu.in',
-            pass: 'Vipul@2003harshu',
+            pass: 'Harshita1810',
         },
     });
 
@@ -184,7 +184,7 @@ function sendAcknowledgmentEmail(userEmail) {
         service: 'gmail',
         auth: {
             user: 'harshita0583.be21@chitkara.edu.in',
-            pass: 'Vipul@2003harshu',
+            pass: 'Harshita1810',
         },
     });
 
